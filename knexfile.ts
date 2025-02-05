@@ -5,11 +5,11 @@ export default {
   },
   useNullAsDefault: true,
   migrations: {
-    extensions: "ts",
+    extension: "ts",
     directory: "./src/database/migrations"
   },
   seeds: {
-    extensions: "ts",
+    extension: "ts",
     directory: "./src/database/seeds"
   }
 }
