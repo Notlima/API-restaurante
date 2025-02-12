@@ -6,8 +6,8 @@ import { tablesSessionsRoutes } from "./tables-sessions-routes";
 
 
 const routes = Router()
+routes.use("/tables-sessions", tablesSessionsRoutes)
 routes.use("/products", productsRoutes)
 routes.use("/tables", tablesRoutes)
-routes.use("/tables-sessions", tablesSessionsRoutes)
 
 export { routes }
